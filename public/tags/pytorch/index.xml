@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>PyTorch on Rorika</title>
-    <link>http://localhost:1313/tags/pytorch/</link>
+    <link>https://candyknife.github.io/tags/pytorch/</link>
     <description>Recent content in PyTorch on Rorika</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 07 Jan 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/pytorch/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://candyknife.github.io/tags/pytorch/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>深度学习服务器环境配置指南 1：驱动与库</title>
-      <link>http://localhost:1313/posts/2023-01-07-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%971-%E9%A9%B1%E5%8A%A8%E4%B8%8E%E5%BA%93/</link>
+      <link>https://candyknife.github.io/posts/2023-01-07-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%971-%E9%A9%B1%E5%8A%A8%E4%B8%8E%E5%BA%93/</link>
       <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2023-01-07-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%971-%E9%A9%B1%E5%8A%A8%E4%B8%8E%E5%BA%93/</guid>
+      <guid>https://candyknife.github.io/posts/2023-01-07-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%971-%E9%A9%B1%E5%8A%A8%E4%B8%8E%E5%BA%93/</guid>
       <description>&lt;h2 id=&#34;一安装显卡驱动&#34;&gt;一、安装显卡驱动&lt;/h2&gt;
 &lt;p&gt;获取显卡与驱动信息：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ubuntu-drivers devices
@@ -35,9 +35,9 @@
     </item>
     <item>
       <title>深度学习服务器环境配置指南 2：训练环境</title>
-      <link>http://localhost:1313/posts/2023-01-07-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%972-%E8%AE%AD%E7%BB%83%E7%8E%AF%E5%A2%83/</link>
+      <link>https://candyknife.github.io/posts/2023-01-07-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%972-%E8%AE%AD%E7%BB%83%E7%8E%AF%E5%A2%83/</link>
       <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2023-01-07-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%972-%E8%AE%AD%E7%BB%83%E7%8E%AF%E5%A2%83/</guid>
+      <guid>https://candyknife.github.io/posts/2023-01-07-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%972-%E8%AE%AD%E7%BB%83%E7%8E%AF%E5%A2%83/</guid>
       <description>&lt;h2 id=&#34;一miniconda-安装&#34;&gt;一、Miniconda 安装&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;

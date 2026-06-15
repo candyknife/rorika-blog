@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>观察 on Rorika</title>
-    <link>http://localhost:1313/categories/%E8%A7%82%E5%AF%9F/</link>
+    <link>https://candyknife.github.io/categories/%E8%A7%82%E5%AF%9F/</link>
     <description>Recent content in 观察 on Rorika</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 14 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/%E8%A7%82%E5%AF%9F/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://candyknife.github.io/categories/%E8%A7%82%E5%AF%9F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>适应性：身为人类的骄傲</title>
-      <link>http://localhost:1313/posts/2024-01-14-%E9%80%82%E5%BA%94%E6%80%A7%E8%BA%AB%E4%B8%BA%E4%BA%BA%E7%B1%BB%E7%9A%84%E9%AA%84%E5%82%B2/</link>
+      <link>https://candyknife.github.io/posts/2024-01-14-%E9%80%82%E5%BA%94%E6%80%A7%E8%BA%AB%E4%B8%BA%E4%BA%BA%E7%B1%BB%E7%9A%84%E9%AA%84%E5%82%B2/</link>
       <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2024-01-14-%E9%80%82%E5%BA%94%E6%80%A7%E8%BA%AB%E4%B8%BA%E4%BA%BA%E7%B1%BB%E7%9A%84%E9%AA%84%E5%82%B2/</guid>
+      <guid>https://candyknife.github.io/posts/2024-01-14-%E9%80%82%E5%BA%94%E6%80%A7%E8%BA%AB%E4%B8%BA%E4%BA%BA%E7%B1%BB%E7%9A%84%E9%AA%84%E5%82%B2/</guid>
       <description>&lt;p&gt;自 2022 年 11 月 30 日 OpenAI 发布对话式 AI 模型 ChatGPT 以来，整个 2023 年，爆发式增长的各种大模型席卷了各式各样的应用场景。起初，对大规模语言模型 (Large Language Model, LLM) 所展现出的惊人能力，人们好奇、人们惊叹、人们恐慌，没有人知道它凭借着&amp;quot;知识涌现&amp;quot;可以到达什么样的地方。但随着大量的实际应用以及对其能力边界的探索，LLM 的局限性以及存在的诸多令人摸不着头脑的问题也渐渐展露出来，其中&amp;quot;ChatGPT 变笨&amp;quot;这一现象一直让我非常感兴趣。今天就聊聊这个话题。&lt;/p&gt;
 &lt;h2 id=&#34;chatgpt-变笨了吗&#34;&gt;ChatGPT 变笨了吗？&lt;/h2&gt;
 &lt;p&gt;国内看到这样的报道是早在 2023 年 6 月初一篇来自量子位的文章：&lt;/p&gt;

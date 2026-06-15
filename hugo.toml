@@ -47,6 +47,10 @@ theme = 'PaperMod'
   url = '/archives/'
   weight = 30
 
+# 搜索功能需要生成 index.json
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'

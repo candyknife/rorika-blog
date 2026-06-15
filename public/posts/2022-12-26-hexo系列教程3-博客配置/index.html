@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Hexo 系列教程 3：博客配置 | Rorika</title>
+<meta name="keywords" content="Hexo">
+<meta name="description" content="网站配置
+打开 blog 根目录里的 _config.yml 文件，也称为 站点配置文件。下面只介绍一些必要的选项：
+网站
+根据自己的博客需要更改设置。
+
+	
+			
+					参数
+					描述
+			
+	
+	
+			
+					title
+					网站标题
+			
+			
+					subtitle
+					网站副标题
+			
+			
+					description
+					网站描述
+			
+			
+					keywords
+					网站的关键词。支持多个关键词。
+			
+			
+					author
+					您的名字
+			
+			
+					language
+					网站使用的语言。对于简体中文用户来说，使用不同的主题可能需要设置成不同的值，请参考你的主题的文档自行设置，常见的有 zh-Hans 和 zh-CN。
+			
+			
+					timezone
+					网站时区。Hexo 默认使用您电脑的时区。请参考 时区列表 进行设置，如 America/New_York, Japan, 和 UTC 。一般的，对于中国大陆地区可以使用 Asia/Shanghai。
+			
+	
+
+其中，description 主要用于 SEO，告诉搜索引擎一个关于您站点的简单描述，通常建议在其中包含您网站的关键词。author 参数用于主题显示文章的作者。
+写作
+默认不需要更改。
+
+	
+			
+					参数
+					描述
+					默认值
+			
+	
+	
+			
+					new_post_name
+					新文章的文件名称
+					:title.md
+			
+			
+					default_layout
+					预设布局
+					post
+			
+			
+					titlecase
+					把标题转换为 title case
+					false
+			
+			
+					external_link
+					在新标签中打开链接
+					true
+			
+			
+					external_link.enable
+					在新标签中打开链接
+					true
+			
+			
+					external_link.field
+					对整个网站（site）生效或仅对文章（post）生效
+					site
+			
+			
+					external_link.exclude
+					需要排除的域名。主域名和子域名如 www 需分别配置
+					[]
+			
+			
+					filename_case
+					把文件名称转换为 (1) 小写或 (2) 大写
+					0
+			
+			
+					render_drafts
+					显示草稿
+					false
+			
+			
+					post_asset_folder
+					启动 Asset 文件夹
+					false
+			
+			
+					relative_link
+					把链接改为与根目录的相对位址
+					false
+			
+			
+					future
+					显示未来的文章
+					true
+			
+			
+					highlight
+					代码块的设置，请参考 Highlight.js 进行设置
+					
+			
+			
+					prismjs
+					代码块的设置，请参考 PrismJS 进行设置
+					
+			
+	
+
+分类 &amp; 标签
+默认不需要更改。">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/2022-12-26-hexo%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B3-%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.89ca4972ab5e6aaa05e9a0dae0c4bb64b26585bc79e36f5cf33614eea0283abe.css" integrity="sha256-icpJcqteaqoF6aDa4MS7ZLJlhbx5429c8zYU7qAoOr4=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/2022-12-26-hexo%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B3-%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="http://localhost:1313/posts/2022-12-26-hexo%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B3-%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/">
+  <meta property="og:site_name" content="Rorika">
+  <meta property="og:title" content="Hexo 系列教程 3：博客配置">
+  <meta property="og:description" content="网站配置 打开 blog 根目录里的 _config.yml 文件，也称为 站点配置文件。下面只介绍一些必要的选项：
+网站 根据自己的博客需要更改设置。
+参数 描述 title 网站标题 subtitle 网站副标题 description 网站描述 keywords 网站的关键词。支持多个关键词。 author 您的名字 language 网站使用的语言。对于简体中文用户来说，使用不同的主题可能需要设置成不同的值，请参考你的主题的文档自行设置，常见的有 zh-Hans 和 zh-CN。 timezone 网站时区。Hexo 默认使用您电脑的时区。请参考 时区列表 进行设置，如 America/New_York, Japan, 和 UTC 。一般的，对于中国大陆地区可以使用 Asia/Shanghai。 其中，description 主要用于 SEO，告诉搜索引擎一个关于您站点的简单描述，通常建议在其中包含您网站的关键词。author 参数用于主题显示文章的作者。
+写作 默认不需要更改。
+参数 描述 默认值 new_post_name 新文章的文件名称 :title.md default_layout 预设布局 post titlecase 把标题转换为 title case false external_link 在新标签中打开链接 true external_link.enable 在新标签中打开链接 true external_link.field 对整个网站（site）生效或仅对文章（post）生效 site external_link.exclude 需要排除的域名。主域名和子域名如 www 需分别配置 [] filename_case 把文件名称转换为 (1) 小写或 (2) 大写 0 render_drafts 显示草稿 false post_asset_folder 启动 Asset 文件夹 false relative_link 把链接改为与根目录的相对位址 false future 显示未来的文章 true highlight 代码块的设置，请参考 Highlight.js 进行设置 prismjs 代码块的设置，请参考 PrismJS 进行设置 分类 &amp; 标签 默认不需要更改。">
+  <meta property="og:locale" content="zh_cn">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2022-12-26T00:00:00+00:00">
+    <meta property="article:modified_time" content="2022-12-26T00:00:00+00:00">
+    <meta property="article:tag" content="Hexo">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Hexo 系列教程 3：博客配置">
+  <meta name="twitter:description" content="网站配置 打开 blog 根目录里的 _config.yml 文件，也称为 站点配置文件。下面只介绍一些必要的选项：
+网站 根据自己的博客需要更改设置。
+参数 描述 title 网站标题 subtitle 网站副标题 description 网站描述 keywords 网站的关键词。支持多个关键词。 author 您的名字 language 网站使用的语言。对于简体中文用户来说，使用不同的主题可能需要设置成不同的值，请参考你的主题的文档自行设置，常见的有 zh-Hans 和 zh-CN。 timezone 网站时区。Hexo 默认使用您电脑的时区。请参考 时区列表 进行设置，如 America/New_York, Japan, 和 UTC 。一般的，对于中国大陆地区可以使用 Asia/Shanghai。 其中，description 主要用于 SEO，告诉搜索引擎一个关于您站点的简单描述，通常建议在其中包含您网站的关键词。author 参数用于主题显示文章的作者。
+写作 默认不需要更改。
+参数 描述 默认值 new_post_name 新文章的文件名称 :title.md default_layout 预设布局 post titlecase 把标题转换为 title case false external_link 在新标签中打开链接 true external_link.enable 在新标签中打开链接 true external_link.field 对整个网站（site）生效或仅对文章（post）生效 site external_link.exclude 需要排除的域名。主域名和子域名如 www 需分别配置 [] filename_case 把文件名称转换为 (1) 小写或 (2) 大写 0 render_drafts 显示草稿 false post_asset_folder 启动 Asset 文件夹 false relative_link 把链接改为与根目录的相对位址 false future 显示未来的文章 true highlight 代码块的设置，请参考 Highlight.js 进行设置 prismjs 代码块的设置，请参考 PrismJS 进行设置 分类 &amp; 标签 默认不需要更改。">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Hexo 系列教程 3：博客配置",
+      "item": "http://localhost:1313/posts/2022-12-26-hexo%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B3-%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Hexo 系列教程 3：博客配置",
+  "name": "Hexo 系列教程 3：博客配置",
+  "description": "网站配置 打开 blog 根目录里的 _config.yml 文件，也称为 站点配置文件。下面只介绍一些必要的选项：\n网站 根据自己的博客需要更改设置。\n参数 描述 title 网站标题 subtitle 网站副标题 description 网站描述 keywords 网站的关键词。支持多个关键词。 author 您的名字 language 网站使用的语言。对于简体中文用户来说，使用不同的主题可能需要设置成不同的值，请参考你的主题的文档自行设置，常见的有 zh-Hans 和 zh-CN。 timezone 网站时区。Hexo 默认使用您电脑的时区。请参考 时区列表 进行设置，如 America/New_York, Japan, 和 UTC 。一般的，对于中国大陆地区可以使用 Asia/Shanghai。 其中，description 主要用于 SEO，告诉搜索引擎一个关于您站点的简单描述，通常建议在其中包含您网站的关键词。author 参数用于主题显示文章的作者。\n写作 默认不需要更改。\n参数 描述 默认值 new_post_name 新文章的文件名称 :title.md default_layout 预设布局 post titlecase 把标题转换为 title case false external_link 在新标签中打开链接 true external_link.enable 在新标签中打开链接 true external_link.field 对整个网站（site）生效或仅对文章（post）生效 site external_link.exclude 需要排除的域名。主域名和子域名如 www 需分别配置 [] filename_case 把文件名称转换为 (1) 小写或 (2) 大写 0 render_drafts 显示草稿 false post_asset_folder 启动 Asset 文件夹 false relative_link 把链接改为与根目录的相对位址 false future 显示未来的文章 true highlight 代码块的设置，请参考 Highlight.js 进行设置 prismjs 代码块的设置，请参考 PrismJS 进行设置 分类 \u0026amp; 标签 默认不需要更改。\n",
+  "keywords": [
+    "Hexo"
+  ],
+  "articleBody": "网站配置 打开 blog 根目录里的 _config.yml 文件，也称为 站点配置文件。下面只介绍一些必要的选项：\n网站 根据自己的博客需要更改设置。\n参数 描述 title 网站标题 subtitle 网站副标题 description 网站描述 keywords 网站的关键词。支持多个关键词。 author 您的名字 language 网站使用的语言。对于简体中文用户来说，使用不同的主题可能需要设置成不同的值，请参考你的主题的文档自行设置，常见的有 zh-Hans 和 zh-CN。 timezone 网站时区。Hexo 默认使用您电脑的时区。请参考 时区列表 进行设置，如 America/New_York, Japan, 和 UTC 。一般的，对于中国大陆地区可以使用 Asia/Shanghai。 其中，description 主要用于 SEO，告诉搜索引擎一个关于您站点的简单描述，通常建议在其中包含您网站的关键词。author 参数用于主题显示文章的作者。\n写作 默认不需要更改。\n参数 描述 默认值 new_post_name 新文章的文件名称 :title.md default_layout 预设布局 post titlecase 把标题转换为 title case false external_link 在新标签中打开链接 true external_link.enable 在新标签中打开链接 true external_link.field 对整个网站（site）生效或仅对文章（post）生效 site external_link.exclude 需要排除的域名。主域名和子域名如 www 需分别配置 [] filename_case 把文件名称转换为 (1) 小写或 (2) 大写 0 render_drafts 显示草稿 false post_asset_folder 启动 Asset 文件夹 false relative_link 把链接改为与根目录的相对位址 false future 显示未来的文章 true highlight 代码块的设置，请参考 Highlight.js 进行设置 prismjs 代码块的设置，请参考 PrismJS 进行设置 分类 \u0026 标签 默认不需要更改。\n参数 描述 默认值 default_category 默认分类 uncategorized category_map 分类别名 tag_map 标签别名 日期 / 时间格式 Hexo 使用 Moment.js 来解析和显示时间。\n参数 描述 默认值 date_format 日期格式 YYYY-MM-DD time_format 时间格式 HH:mm:ss updated_option 当 Front Matter 中没有指定 updated 时 updated 的取值 mtime 分页 参数 描述 默认值 per_page 每页显示的文章量 (0 = 关闭分页功能) 10 pagination_dir 分页目录 page 扩展 主题设置在后一节会介绍，部署设置已经在上一篇教程中介绍。\n参数 描述 theme 当前主题名称。值为 false 时禁用主题 theme_config 主题的配置文件。在这里放置的配置会覆盖主题目录下的 _config.yml 中的配置 deploy 部署部分的设置 meta_generator Meta generator 标签。值为 false 时 Hexo 不会在头部插入该标签 主题配置 这里以 Card 主题为例。详细配置方法可以参考 Theme Cards 参考手册。\n可以使用 Git 拉取「Cards」，以后还可以使用 git pull 直接更新「Cards」。在站点根目录打开终端，并执行：\ngit clone https://github.com/ChrAlpha/hexo-theme-cards.git themes/cards 在站点配置文件中，将 theme 的值改为 cards。\n如果获取「Cards」时你将文件夹重命名为其他名字，请将 cards 对应为你重命名文件夹的名字。\n# Extensions ## Plugins: https://hexo.io/plugins/ ## Themes: https://hexo.io/themes/ theme: cards 更新于 2023-06-06\n",
+  "wordCount" : "211",
+  "inLanguage": "en",
+  "datePublished": "2022-12-26T00:00:00Z",
+  "dateModified": "2022-12-26T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/2022-12-26-hexo%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B3-%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rorika",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Rorika (Alt + H)">Rorika</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/posts/" title="文章">
+                    <span>文章</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="搜索">
+                    <span>搜索</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="归档">
+                    <span>归档</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Hexo 系列教程 3：博客配置
+    </h1>
+    <div class="post-meta">
+
+<span title='2022-12-26 00:00:00 +0000 UTC'>December 26, 2022</span>
+
+</div>
+  </header> 
+  <div class="post-content md-content"><h2 id="网站配置">网站配置<a hidden class="anchor" aria-hidden="true" href="#网站配置">#</a></h2>
+<p>打开 blog 根目录里的 <code>_config.yml</code> 文件，也称为 <strong>站点配置文件</strong>。下面只介绍一些必要的选项：</p>
+<h3 id="网站">网站<a hidden class="anchor" aria-hidden="true" href="#网站">#</a></h3>
+<p>根据自己的博客需要更改设置。</p>
+<table>
+	<thead>
+			<tr>
+					<th>参数</th>
+					<th>描述</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><code>title</code></td>
+					<td>网站标题</td>
+			</tr>
+			<tr>
+					<td><code>subtitle</code></td>
+					<td>网站副标题</td>
+			</tr>
+			<tr>
+					<td><code>description</code></td>
+					<td>网站描述</td>
+			</tr>
+			<tr>
+					<td><code>keywords</code></td>
+					<td>网站的关键词。支持多个关键词。</td>
+			</tr>
+			<tr>
+					<td><code>author</code></td>
+					<td>您的名字</td>
+			</tr>
+			<tr>
+					<td><code>language</code></td>
+					<td>网站使用的语言。对于简体中文用户来说，使用不同的主题可能需要设置成不同的值，请参考你的主题的文档自行设置，常见的有 <code>zh-Hans</code> 和 <code>zh-CN</code>。</td>
+			</tr>
+			<tr>
+					<td><code>timezone</code></td>
+					<td>网站时区。Hexo 默认使用您电脑的时区。请参考 <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">时区列表</a> 进行设置，如 <code>America/New_York</code>, <code>Japan</code>, 和 <code>UTC</code> 。一般的，对于中国大陆地区可以使用 <code>Asia/Shanghai</code>。</td>
+			</tr>
+	</tbody>
+</table>
+<p>其中，<code>description</code> 主要用于 SEO，告诉搜索引擎一个关于您站点的简单描述，通常建议在其中包含您网站的关键词。<code>author</code> 参数用于主题显示文章的作者。</p>
+<h3 id="写作">写作<a hidden class="anchor" aria-hidden="true" href="#写作">#</a></h3>
+<p>默认不需要更改。</p>
+<table>
+	<thead>
+			<tr>
+					<th>参数</th>
+					<th>描述</th>
+					<th>默认值</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><code>new_post_name</code></td>
+					<td>新文章的文件名称</td>
+					<td>:title.md</td>
+			</tr>
+			<tr>
+					<td><code>default_layout</code></td>
+					<td>预设布局</td>
+					<td>post</td>
+			</tr>
+			<tr>
+					<td><code>titlecase</code></td>
+					<td>把标题转换为 title case</td>
+					<td>false</td>
+			</tr>
+			<tr>
+					<td><code>external_link</code></td>
+					<td>在新标签中打开链接</td>
+					<td>true</td>
+			</tr>
+			<tr>
+					<td><code>external_link.enable</code></td>
+					<td>在新标签中打开链接</td>
+					<td><code>true</code></td>
+			</tr>
+			<tr>
+					<td><code>external_link.field</code></td>
+					<td>对整个网站（<code>site</code>）生效或仅对文章（<code>post</code>）生效</td>
+					<td><code>site</code></td>
+			</tr>
+			<tr>
+					<td><code>external_link.exclude</code></td>
+					<td>需要排除的域名。主域名和子域名如 <code>www</code> 需分别配置</td>
+					<td><code>[]</code></td>
+			</tr>
+			<tr>
+					<td><code>filename_case</code></td>
+					<td>把文件名称转换为 (1) 小写或 (2) 大写</td>
+					<td>0</td>
+			</tr>
+			<tr>
+					<td><code>render_drafts</code></td>
+					<td>显示草稿</td>
+					<td>false</td>
+			</tr>
+			<tr>
+					<td><code>post_asset_folder</code></td>
+					<td>启动 <a href="https://hexo.io/zh-cn/docs/asset-folders">Asset 文件夹</a></td>
+					<td>false</td>
+			</tr>
+			<tr>
+					<td><code>relative_link</code></td>
+					<td>把链接改为与根目录的相对位址</td>
+					<td>false</td>
+			</tr>
+			<tr>
+					<td><code>future</code></td>
+					<td>显示未来的文章</td>
+					<td>true</td>
+			</tr>
+			<tr>
+					<td><code>highlight</code></td>
+					<td>代码块的设置，请参考 <a href="https://hexo.io/zh-cn/docs/syntax-highlight#Highlight-js">Highlight.js</a> 进行设置</td>
+					<td></td>
+			</tr>
+			<tr>
+					<td><code>prismjs</code></td>
+					<td>代码块的设置，请参考 <a href="https://hexo.io/zh-cn/docs/syntax-highlight#PrismJS">PrismJS</a> 进行设置</td>
+					<td></td>
+			</tr>
+	</tbody>
+</table>
+<h3 id="分类--标签">分类 &amp; 标签<a hidden class="anchor" aria-hidden="true" href="#分类--标签">#</a></h3>
+<p>默认不需要更改。</p>
+<table>
+	<thead>
+			<tr>
+					<th>参数</th>
+					<th>描述</th>
+					<th>默认值</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><code>default_category</code></td>
+					<td>默认分类</td>
+					<td><code>uncategorized</code></td>
+			</tr>
+			<tr>
+					<td><code>category_map</code></td>
+					<td>分类别名</td>
+					<td></td>
+			</tr>
+			<tr>
+					<td><code>tag_map</code></td>
+					<td>标签别名</td>
+					<td></td>
+			</tr>
+	</tbody>
+</table>
+<h3 id="日期--时间格式">日期 / 时间格式<a hidden class="anchor" aria-hidden="true" href="#日期--时间格式">#</a></h3>
+<p>Hexo 使用 <a href="http://momentjs.com/">Moment.js</a> 来解析和显示时间。</p>
+<table>
+	<thead>
+			<tr>
+					<th>参数</th>
+					<th>描述</th>
+					<th>默认值</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><code>date_format</code></td>
+					<td>日期格式</td>
+					<td><code>YYYY-MM-DD</code></td>
+			</tr>
+			<tr>
+					<td><code>time_format</code></td>
+					<td>时间格式</td>
+					<td><code>HH:mm:ss</code></td>
+			</tr>
+			<tr>
+					<td><code>updated_option</code></td>
+					<td>当 Front Matter 中没有指定 <a href="https://hexo.io/zh-cn/docs/variables#%E9%A1%B5%E9%9D%A2%E5%8F%98%E9%87%8F"><code>updated</code></a> 时 <code>updated</code> 的取值</td>
+					<td><code>mtime</code></td>
+			</tr>
+	</tbody>
+</table>
+<h3 id="分页">分页<a hidden class="anchor" aria-hidden="true" href="#分页">#</a></h3>
+<table>
+	<thead>
+			<tr>
+					<th>参数</th>
+					<th>描述</th>
+					<th>默认值</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><code>per_page</code></td>
+					<td>每页显示的文章量 (0 = 关闭分页功能)</td>
+					<td><code>10</code></td>
+			</tr>
+			<tr>
+					<td><code>pagination_dir</code></td>
+					<td>分页目录</td>
+					<td><code>page</code></td>
+			</tr>
+	</tbody>
+</table>
+<h3 id="扩展">扩展<a hidden class="anchor" aria-hidden="true" href="#扩展">#</a></h3>
+<p>主题设置在后一节会介绍，部署设置已经在上一篇教程中介绍。</p>
+<table>
+	<thead>
+			<tr>
+					<th>参数</th>
+					<th>描述</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><code>theme</code></td>
+					<td>当前主题名称。值为 <code>false</code> 时禁用主题</td>
+			</tr>
+			<tr>
+					<td><code>theme_config</code></td>
+					<td>主题的配置文件。在这里放置的配置会覆盖主题目录下的 <code>_config.yml</code> 中的配置</td>
+			</tr>
+			<tr>
+					<td><code>deploy</code></td>
+					<td>部署部分的设置</td>
+			</tr>
+			<tr>
+					<td><code>meta_generator</code></td>
+					<td><a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/meta#%E5%B1%9E%E6%80%A7">Meta generator</a> 标签。值为 <code>false</code> 时 Hexo 不会在头部插入该标签</td>
+			</tr>
+	</tbody>
+</table>
+<h2 id="主题配置">主题配置<a hidden class="anchor" aria-hidden="true" href="#主题配置">#</a></h2>
+<p>这里以 <a href="https://github.com/ChrAlpha/hexo-theme-cards/">Card</a> 主题为例。详细配置方法可以参考 <a href="https://theme-cards.ichr.me/start/">Theme Cards 参考手册</a>。</p>
+<p>可以使用 Git 拉取「Cards」，以后还可以使用 <code>git pull</code> 直接更新「Cards」。在站点根目录打开终端，并执行：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/ChrAlpha/hexo-theme-cards.git themes/cards
+</span></span></code></pre></div><p>在站点配置文件中，将 <code>theme</code> 的值改为 <code>cards</code>。</p>
+<blockquote>
+<p>如果获取「Cards」时你将文件夹重命名为其他名字，请将 <code>cards</code> 对应为你重命名文件夹的名字。</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#75715e"># Extensions</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## Plugins: https://hexo.io/plugins/</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## Themes: https://hexo.io/themes/</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">theme</span>: <span style="color:#ae81ff">cards</span>
+</span></span></code></pre></div><blockquote>
+<p>更新于 2023-06-06</p>
+</blockquote>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/hexo/">Hexo</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Rorika</a></span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Hexo on Rorika</title>
+    <link>http://localhost:1313/tags/hexo/</link>
+    <description>Recent content in Hexo on Rorika</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 26 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/hexo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hexo 系列教程 3：博客配置</title>
+      <link>http://localhost:1313/posts/2022-12-26-hexo%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B3-%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/</link>
+      <pubDate>Mon, 26 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2022-12-26-hexo%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B3-%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/</guid>
+      <description>&lt;h2 id=&#34;网站配置&#34;&gt;网站配置&lt;/h2&gt;
+&lt;p&gt;打开 blog 根目录里的 &lt;code&gt;_config.yml&lt;/code&gt; 文件，也称为 &lt;strong&gt;站点配置文件&lt;/strong&gt;。下面只介绍一些必要的选项：&lt;/p&gt;
+&lt;h3 id=&#34;网站&#34;&gt;网站&lt;/h3&gt;
+&lt;p&gt;根据自己的博客需要更改设置。&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;参数&lt;/th&gt;
+					&lt;th&gt;描述&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;code&gt;title&lt;/code&gt;&lt;/td&gt;
+					&lt;td&gt;网站标题&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;code&gt;subtitle&lt;/code&gt;&lt;/td&gt;
+					&lt;td&gt;网站副标题&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;code&gt;description&lt;/code&gt;&lt;/td&gt;
+					&lt;td&gt;网站描述&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;code&gt;keywords&lt;/code&gt;&lt;/td&gt;
+					&lt;td&gt;网站的关键词。支持多个关键词。&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;code&gt;author&lt;/code&gt;&lt;/td&gt;
+					&lt;td&gt;您的名字&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;code&gt;language&lt;/code&gt;&lt;/td&gt;
+					&lt;td&gt;网站使用的语言。对于简体中文用户来说，使用不同的主题可能需要设置成不同的值，请参考你的主题的文档自行设置，常见的有 &lt;code&gt;zh-Hans&lt;/code&gt; 和 &lt;code&gt;zh-CN&lt;/code&gt;。&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;code&gt;timezone&lt;/code&gt;&lt;/td&gt;
+					&lt;td&gt;网站时区。Hexo 默认使用您电脑的时区。请参考 &lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_tz_database_time_zones&#34;&gt;时区列表&lt;/a&gt; 进行设置，如 &lt;code&gt;America/New_York&lt;/code&gt;, &lt;code&gt;Japan&lt;/code&gt;, 和 &lt;code&gt;UTC&lt;/code&gt; 。一般的，对于中国大陆地区可以使用 &lt;code&gt;Asia/Shanghai&lt;/code&gt;。&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;其中，&lt;code&gt;description&lt;/code&gt; 主要用于 SEO，告诉搜索引擎一个关于您站点的简单描述，通常建议在其中包含您网站的关键词。&lt;code&gt;author&lt;/code&gt; 参数用于主题显示文章的作者。&lt;/p&gt;
+&lt;h3 id=&#34;写作&#34;&gt;写作&lt;/h3&gt;
+&lt;p&gt;默认不需要更改。&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;参数&lt;/th&gt;
+					&lt;th&gt;描述&lt;/th&gt;
+					&lt;th&gt;默认值&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;code&gt;new_post_name&lt;/code&gt;&lt;/td&gt;
+					&lt;td&gt;新文章的文件名称&lt;/td&gt;
+					&lt;td&gt;:title.md&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;code&gt;default_layout&lt;/code&gt;&lt;/td&gt;
+					&lt;td&gt;预设布局&lt;/td&gt;
+					&lt;td&gt;post&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;code&gt;titlecase&lt;/code&gt;&lt;/td&gt;
+					&lt;td&gt;把标题转换为 title case&lt;/td&gt;
+					&lt;td&gt;false&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;code&gt;external_link&lt;/code&gt;&lt;/td&gt;
+					&lt;td&gt;在新标签中打开链接&lt;/td&gt;
+					&lt;td&gt;true&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;code&gt;external_link.enable&lt;/code&gt;&lt;/td&gt;
+					&lt;td&gt;在新标签中打开链接&lt;/td&gt;
+					&lt;td&gt;&lt;code&gt;true&lt;/code&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;code&gt;external_link.field&lt;/code&gt;&lt;/td&gt;
+					&lt;td&gt;对整个网站（&lt;code&gt;site&lt;/code&gt;）生效或仅对文章（&lt;code&gt;post&lt;/code&gt;）生效&lt;/td&gt;
+					&lt;td&gt;&lt;code&gt;site&lt;/code&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;code&gt;external_link.exclude&lt;/code&gt;&lt;/td&gt;
+					&lt;td&gt;需要排除的域名。主域名和子域名如 &lt;code&gt;www&lt;/code&gt; 需分别配置&lt;/td&gt;
+					&lt;td&gt;&lt;code&gt;[]&lt;/code&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;code&gt;filename_case&lt;/code&gt;&lt;/td&gt;
+					&lt;td&gt;把文件名称转换为 (1) 小写或 (2) 大写&lt;/td&gt;
+					&lt;td&gt;0&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;code&gt;render_drafts&lt;/code&gt;&lt;/td&gt;
+					&lt;td&gt;显示草稿&lt;/td&gt;
+					&lt;td&gt;false&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;code&gt;post_asset_folder&lt;/code&gt;&lt;/td&gt;
+					&lt;td&gt;启动 &lt;a href=&#34;https://hexo.io/zh-cn/docs/asset-folders&#34;&gt;Asset 文件夹&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;false&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;code&gt;relative_link&lt;/code&gt;&lt;/td&gt;
+					&lt;td&gt;把链接改为与根目录的相对位址&lt;/td&gt;
+					&lt;td&gt;false&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;code&gt;future&lt;/code&gt;&lt;/td&gt;
+					&lt;td&gt;显示未来的文章&lt;/td&gt;
+					&lt;td&gt;true&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;code&gt;highlight&lt;/code&gt;&lt;/td&gt;
+					&lt;td&gt;代码块的设置，请参考 &lt;a href=&#34;https://hexo.io/zh-cn/docs/syntax-highlight#Highlight-js&#34;&gt;Highlight.js&lt;/a&gt; 进行设置&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;code&gt;prismjs&lt;/code&gt;&lt;/td&gt;
+					&lt;td&gt;代码块的设置，请参考 &lt;a href=&#34;https://hexo.io/zh-cn/docs/syntax-highlight#PrismJS&#34;&gt;PrismJS&lt;/a&gt; 进行设置&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;分类--标签&#34;&gt;分类 &amp;amp; 标签&lt;/h3&gt;
+&lt;p&gt;默认不需要更改。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hexo 系列教程 2：Github 部署</title>
+      <link>http://localhost:1313/posts/2022-12-22-hexo%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B2-github%E9%83%A8%E7%BD%B2/</link>
+      <pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2022-12-22-hexo%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B2-github%E9%83%A8%E7%BD%B2/</guid>
+      <description>&lt;h2 id=&#34;配置-git&#34;&gt;配置 Git&lt;/h2&gt;
+&lt;p&gt;打开 Windows Terminal 或者在菜单里搜索 Git Bash，取消 ssl 认证：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git config --global http.sslVerify false
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;设置 user.name 和 user.email 配置信息：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git config --global user.name &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;你的 GitHub 用户名&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git config --global user.email &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;你的 GitHub 注册邮箱&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;生成 ssh 密钥文件：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ssh-keygen -t rsa -C &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;你的 GitHub 注册邮箱&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后直接三个回车即可，默认不需要设置密码。你应该会看到如下输出：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Generating public/private rsa key pair.
+Enter file in which to save the key (C:\Users\用户名/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in C:\Users\用户名/.ssh/id_rsa
+Your public key has been saved in C:\Users\用户名/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:66taKe0S8vRMPMJnjCi/GaDgi+oEaPAJy71QEBFX7+Y
+The key&amp;#39;s randomart image is:
++---[RSA 3072]----+
+| =+...           |
+|  o   .          |
+|o  .   .         |
+|++o.  .          |
+|*+o+ + oS        |
+|B.+ B.X. .       |
+|.=.=.O+E.        |
+|o ooo+o.         |
+|=oo..oo.o.       |
++----[SHA256]-----+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;在 &lt;code&gt;C:\Users\用户名/.ssh/id_rsa.pub&lt;/code&gt; 处找到生成的 &lt;code&gt;id_rsa.pub&lt;/code&gt; 密钥，复制其中全部内容。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hexo 系列教程 1：环境搭建</title>
+      <link>http://localhost:1313/posts/2022-12-18-hexo%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B1-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</link>
+      <pubDate>Sun, 18 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2022-12-18-hexo%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B1-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</guid>
+      <description>&lt;h2 id=&#34;什么是-hexo&#34;&gt;什么是 Hexo？&lt;/h2&gt;
+&lt;p&gt;Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt;（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。&lt;/p&gt;
+&lt;h2 id=&#34;安装前提&#34;&gt;安装前提&lt;/h2&gt;
+&lt;p&gt;安装 Hexo 相当简单，只需要先安装下列应用程序即可：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://git-scm.com/&#34;&gt;Git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://nodejs.org/&#34;&gt;Node.js&lt;/a&gt;（Node.js 版本需不低于 10.13，建议使用 Node.js 12.0 及以上版本）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;安装-git&#34;&gt;安装 Git&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows：下载并安装 &lt;a href=&#34;https://git-scm.com/download/win&#34;&gt;Git&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;安装-nodejs&#34;&gt;安装 Node.js&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows：下载并安装 &lt;a href=&#34;https://nodejs.org/en/download/&#34;&gt;Node.js&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;至此已经满足了 Hexo 安装的前提条件。&lt;/p&gt;
+&lt;h2 id=&#34;安装-hexo&#34;&gt;安装 Hexo&lt;/h2&gt;
+&lt;p&gt;所有必备的应用程序安装完成后，即可使用 npm 安装 Hexo。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;npm install -g hexo-cli
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;初始化博客&#34;&gt;初始化博客&lt;/h2&gt;
+&lt;p&gt;安装 Hexo 完成后，执行下列命令，Hexo 将会在指定文件夹中新建所需要的文件。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hexo init &amp;lt;folder&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd &amp;lt;folder&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;npm install
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;新建完成后，指定文件夹的目录如下：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;.
+├── _config.yml
+├── package.json
+├── scaffolds
+├── source
+|   ├── _drafts
+|   └── _posts
+└── themes
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;本地部署&#34;&gt;本地部署&lt;/h2&gt;
+&lt;p&gt;完成初始化后，执行下列命令，即可生成默认的静态页面。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hexo generate
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;该命令也可以简写为：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hexo g
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;完成生成过后即可执行下列命令，在本地开启服务。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

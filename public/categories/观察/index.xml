@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>观察 on Rorika</title>
+    <link>http://localhost:1313/categories/%E8%A7%82%E5%AF%9F/</link>
+    <description>Recent content in 观察 on Rorika</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 14 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/%E8%A7%82%E5%AF%9F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>适应性：身为人类的骄傲</title>
+      <link>http://localhost:1313/posts/2024-01-14-%E9%80%82%E5%BA%94%E6%80%A7%E8%BA%AB%E4%B8%BA%E4%BA%BA%E7%B1%BB%E7%9A%84%E9%AA%84%E5%82%B2/</link>
+      <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-01-14-%E9%80%82%E5%BA%94%E6%80%A7%E8%BA%AB%E4%B8%BA%E4%BA%BA%E7%B1%BB%E7%9A%84%E9%AA%84%E5%82%B2/</guid>
+      <description>&lt;p&gt;自 2022 年 11 月 30 日 OpenAI 发布对话式 AI 模型 ChatGPT 以来，整个 2023 年，爆发式增长的各种大模型席卷了各式各样的应用场景。起初，对大规模语言模型 (Large Language Model, LLM) 所展现出的惊人能力，人们好奇、人们惊叹、人们恐慌，没有人知道它凭借着&amp;quot;知识涌现&amp;quot;可以到达什么样的地方。但随着大量的实际应用以及对其能力边界的探索，LLM 的局限性以及存在的诸多令人摸不着头脑的问题也渐渐展露出来，其中&amp;quot;ChatGPT 变笨&amp;quot;这一现象一直让我非常感兴趣。今天就聊聊这个话题。&lt;/p&gt;
+&lt;h2 id=&#34;chatgpt-变笨了吗&#34;&gt;ChatGPT 变笨了吗？&lt;/h2&gt;
+&lt;p&gt;国内看到这样的报道是早在 2023 年 6 月初一篇来自量子位的文章：&lt;/p&gt;
+&lt;p&gt;对于 ChatGPT 变笨，先是少数用户提出质疑，随后大量网友表示自己也注意到了，还贴出不少证据。有人反馈，把 GPT-4 的 3 小时 25 条对话额度一口气用完了，都没解决自己的代码问题。无奈切换到 GPT-3.5，反倒解决了。&lt;/p&gt;
+&lt;p&gt;总结下大家的反馈，最主要的几种表现有：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;以前 GPT-4 能写对的代码，现在满是 Bug&lt;/li&gt;
+&lt;li&gt;回答问题的深度和分析变少了&lt;/li&gt;
+&lt;li&gt;响应速度比以前快了&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;所有深度学习模型都可以抽象成一个黑盒函数，在其内部参数不做任何改动的情况下，喂给它一个输入 x，其可以吐出的输出 y 在统计上是稳定不变的。这么看，好像一个已经完成训练的 LLM 应该具有相当稳定的能力，更何况 OpenAI 本身也在努力提高 ChatGPT 的能力，无论如何 LLM 即使无法随着更新越来越聪明，至少也不会变笨才对。&lt;/p&gt;
+&lt;p&gt;对此 OpenAI 于 2023 年 7 月 14 日做出了澄清：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;No, we haven&amp;rsquo;t made GPT-4 dumber. Quite the opposite: we make each new version smarter than the previous one.&lt;/em&gt;
+我们没有把 GPT-4 弄笨。相反地，我们的每个新版本都让 GPT-4 比以前更聪明了。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

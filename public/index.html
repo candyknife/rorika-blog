@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head>
+	<meta name="generator" content="Hugo 0.163.1"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Rorika</title>
+<meta name="keywords" content="Blog, Portfolio">
+<meta name="description" content="这是我的个人博客">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.89ca4972ab5e6aaa05e9a0dae0c4bb64b26585bc79e36f5cf33614eea0283abe.css" integrity="sha256-icpJcqteaqoF6aDa4MS7ZLJlhbx5429c8zYU7qAoOr4=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml" title="rss">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="http://localhost:1313/">
+  <meta property="og:site_name" content="Rorika">
+  <meta property="og:title" content="Rorika">
+  <meta property="og:description" content="这是我的个人博客">
+  <meta property="og:locale" content="zh_cn">
+  <meta property="og:type" content="website">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Rorika">
+  <meta name="twitter:description" content="这是我的个人博客">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Rorika",
+  "url": "http://localhost:1313/",
+  "description": "这是我的个人博客",
+  "logo": "http://localhost:1313/favicon.ico",
+  "sameAs": [
+      "https://github.com/candyknife", "mailto:rolin.y.luo@qq.com"
+  ]
+}
+</script>
+</head>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Rorika (Alt + H)">Rorika</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/posts/" title="文章">
+                    <span>文章</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="搜索">
+                    <span>搜索</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="归档">
+                    <span>归档</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<article class="first-entry home-info">
+    <header class="entry-header">
+        <h1>你好，欢迎来到我的博客！</h1>
+    </header>
+    <div class="entry-content md-content">
+        
+        <p>这里记录了我的学习笔记和技术分享。</p>
+
+    </div>
+    <footer class="entry-footer">
+        <div class="social-icons" >
+    <a href="https://github.com/candyknife" target="_blank" rel="noopener noreferrer me"
+        title="Github">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+    </a>
+    <a href="mailto:rolin.y.luo@qq.com" target="_blank" rel="noopener noreferrer me"
+        title="Email">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 21" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+    <polyline points="22,6 12,13 2,6"></polyline>
+</svg>
+    </a>
+</div>
+
+    </footer>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">适应性：身为人类的骄傲
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>自 2022 年 11 月 30 日 OpenAI 发布对话式 AI 模型 ChatGPT 以来，整个 2023 年，爆发式增长的各种大模型席卷了各式各样的应用场景。起初，对大规模语言模型 (Large Language Model, LLM) 所展现出的惊人能力，人们好奇、人们惊叹、人们恐慌，没有人知道它凭借着&#34;知识涌现&#34;可以到达什么样的地方。但随着大量的实际应用以及对其能力边界的探索，LLM 的局限性以及存在的诸多令人摸不着头脑的问题也渐渐展露出来，其中&#34;ChatGPT 变笨&#34;这一现象一直让我非常感兴趣。今天就聊聊这个话题。
+ChatGPT 变笨了吗？ 国内看到这样的报道是早在 2023 年 6 月初一篇来自量子位的文章：
+对于 ChatGPT 变笨，先是少数用户提出质疑，随后大量网友表示自己也注意到了，还贴出不少证据。有人反馈，把 GPT-4 的 3 小时 25 条对话额度一口气用完了，都没解决自己的代码问题。无奈切换到 GPT-3.5，反倒解决了。
+总结下大家的反馈，最主要的几种表现有：
+以前 GPT-4 能写对的代码，现在满是 Bug 回答问题的深度和分析变少了 响应速度比以前快了 所有深度学习模型都可以抽象成一个黑盒函数，在其内部参数不做任何改动的情况下，喂给它一个输入 x，其可以吐出的输出 y 在统计上是稳定不变的。这么看，好像一个已经完成训练的 LLM 应该具有相当稳定的能力，更何况 OpenAI 本身也在努力提高 ChatGPT 的能力，无论如何 LLM 即使无法随着更新越来越聪明，至少也不会变笨才对。
+对此 OpenAI 于 2023 年 7 月 14 日做出了澄清：
+No, we haven’t made GPT-4 dumber. Quite the opposite: we make each new version smarter than the previous one. 我们没有把 GPT-4 弄笨。相反地，我们的每个新版本都让 GPT-4 比以前更聪明了。
+...</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2024-01-14 00:00:00 +0000 UTC'>January 14, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to 适应性：身为人类的骄傲" href="http://localhost:1313/posts/2024-01-14-%E9%80%82%E5%BA%94%E6%80%A7%E8%BA%AB%E4%B8%BA%E4%BA%BA%E7%B1%BB%E7%9A%84%E9%AA%84%E5%82%B2/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">好好记录，做自己的史官
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p> Veni, Vidi. 我来，我见证。
+我曾经对记录这件事情非常不屑。
+我始终认为，无论什么事情，人能对得起自己就可以。这可以是一件很简单的事情，也可以是一件很难的事情。就记录这件事情来说，它更多应该是简单的。
+我走到哪里，见闻过什么，过着什么样的生活，今天和昨天相比有些什么不一样——这些都是太过主观而内省的内容，重要的是好好体会、好好感受，不辜负当下的每一分每一秒。至于如何试图用优美流畅的文字或者构图精巧的影像来做记录，则完完全全是一种没有必要的负担。我好像没有必要向谁证明什么。证明我到过这个地方或是证明自己今天过得如何好像完全没有意义，别人信也好不信也好，都与自己无关。对自己来说，只需要知道自己曾经到过哪里，大致的心情如何，便足够了。
+所以我好像很少有意地去记录点什么，出门旅游更多是走形式一般随大流拍一拍所见，或者说会拍照是因为拍照本身是旅游中的一环，如果不拍点什么好像没有好好旅游似的。但抛开对不对得起自己旅游这个问题，其实更多是脑袋记下了便记下了，模糊了便模糊了。
+但是 2023，更确切地说是最近几年，让我对这件事情慢慢有了改观。
+从一个孩子的角度出发，对长大、对未来的期待与欣喜总是远远大过对过去的怀念的。但人是会变老的，当我走过某个时间点，我发现好像未来不再那么令人期待，我开始觉得惶恐。我好像也不愿意在一个糟糕的当下，翻遍脑海，却找不到一丁点&#34;曾经我快乐过&#34;的实感。尽管当下我还能算是清楚地记得某一年我大概过得如何，有过哪些开心，但很明显，我不可能永远记住这些。
+并且我也逐渐发现，世界变化之大之快都是超出我的想象的。2020 到 2022 疫情三年时间，才刚刚结束一年，却好像拨动了开关一样，日常生活中难寻踪迹。不知为什么，我好像对此有些暗暗的不快，但这样的不快是对世界，还是对自己，完全说不上来。现在看来，更多是对自己吧，作为一段自己有过深切体会的&#34;历史&#34;，我好像确实没能记录下什么，似乎过去了就过去了。
+第一次，没有好好做记录让我觉得自己没能对得起自己。
+我开始认识到，“历史&#34;不仅仅是那些几十上百年之前发生的诸如战争、灾害之类的重大事件，我们所经历的当下就是实打实的&#34;历史”。忘记了自己从哪里看过，说：不要觉得大英博物馆、卢浮宫这样的大型博物馆中全都是厚重的百年前的历史，错了，其实那些只占全部展品的一小部分，超过一半的展品都是 20 年以内的记录，当然，它们也都是历史。这样的论调是真是假我无从查证，但想想确实，每一年我们所经历的，什么不是&#34;历史&#34;呢？《尘埃落定》中倍受敬重的史官，其实也都是记录的是文中的&#34;当下&#34;呀！
+所以，新的一年里虽然列了很多想要完成的事情，但还是希望自己做自己的史官，从好好记录开始，一桩一桩地去做吧。
+更新于 2024-01-14
+</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2024-01-07 00:00:00 +0000 UTC'>January 7, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to 好好记录，做自己的史官" href="http://localhost:1313/posts/2024-01-07-%E5%A5%BD%E5%A5%BD%E8%AE%B0%E5%BD%95%E5%81%9A%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8F%B2%E5%AE%98/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">深度学习服务器环境配置指南 1：驱动与库
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>一、安装显卡驱动 获取显卡与驱动信息：
+ubuntu-drivers devices 选择推荐版本进行安装：
+sudo apt install nvidia-driver-515 完成后验证安装结果：
+nvidia-smi 此时留意所展示的 CUDA Version，如果高于 PyTorch 指导 页面所展示的最高 CUDA 版本，则以 PyTorch 适用的 CUDA 版本为准。
+二、安装 CUDA 在 CUDA Toolkit Archive 下载所需 CUDA 版本的安装文件，一般来说最新的显卡驱动所支持的 CUDA 版本都高于 PyTorch 支持的最高版本，以 PyTorch 指导页面为准即可。当前 PyTorch 最高支持 CUDA 11.7。
+选择特定版本后，根据实际系统架构与系统版本进行筛选，最终安装方式按 NVIDIA 文档所述，推荐使用 deb(local) 分支。此时会给出安装指导：
+wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-ubuntu2204.pin sudo mv cuda-ubuntu2204.pin /etc/apt/preferences.d/cuda-repository-pin-600 wget https://developer.download.nvidia.com/compute/cuda/11.7.1/local_installers/cuda-repo-ubuntu2204-11-7-local_11.7.1-515.65.01-1_amd64.deb sudo dpkg -i cuda-repo-ubuntu2204-11-7-local_11.7.1-515.65.01-1_amd64.deb sudo cp /var/cuda-repo-ubuntu2204-11-7-local/cuda-*-keyring.gpg /usr/share/keyrings/ sudo apt-get update sudo apt-get -y install cuda 完成后需要配置环境变量：
+...</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2023-01-07 00:00:00 +0000 UTC'>January 7, 2023</span></footer>
+  <a class="entry-link" aria-label="post link to 深度学习服务器环境配置指南 1：驱动与库" href="http://localhost:1313/posts/2023-01-07-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%971-%E9%A9%B1%E5%8A%A8%E4%B8%8E%E5%BA%93/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">深度学习服务器环境配置指南 2：训练环境
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>一、Miniconda 安装 下载安装包 Miniconda
+验证哈希值
+sha256sum filename 安装
+bash Miniconda3-latest-Linux-x86_64.sh 重启终端并测试
+conda list 更新
+conda update conda 二、项目环境配置 根据需要为项目创建对应环境。
+conda create -n project_name 激活项目环境。
+conda activate project_name 三、Pytorch 安装 查看当前 Nvidia 驱动版本。
+nvidia-smi 查找对应的 cuda 版本：CUDA documentation。 根据 cuda 版本执行对应的安装指令：PyTorch。
+conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia 四、Jupyter Notebook 安装 安装：
+conda install notebook 生成配置文件并修改：
+jupyter notebook --generate-config vi ~/.jupyter/jupyter_notebook_config.py 单独打开一个终端窗口用以生成密钥：
+python from notebook.auth import passwd passwd() Enter password: Verify password: &#39;argon2:$argon2id$...&#39; 在 Jupyter Notebook 的配置文件中改动以下内容：
+...</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2023-01-07 00:00:00 +0000 UTC'>January 7, 2023</span></footer>
+  <a class="entry-link" aria-label="post link to 深度学习服务器环境配置指南 2：训练环境" href="http://localhost:1313/posts/2023-01-07-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%972-%E8%AE%AD%E7%BB%83%E7%8E%AF%E5%A2%83/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">2022 年度总结
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p> 我要去赶火车，走夜路， 先活过那条哀鸣的狗， 再回来认我的命。
+—— 李修文《山河袈裟》
+写在前面 反复犹豫，终于还是决意要在 2022 的最后一天在这里对自己说点什么。原谅我开头放上这么几句看上去考虑到我的年纪显得无病呻吟的句子，我自知所尝过的酸苦不及其他人的万分之一，自知现在还是没有经济压力地在大学的象牙塔里，自知所谓&#34;成年&#34;的责任也好担当也好都还未落到自己肩上，但是这一年就是让人压抑和彷徨的。我的 2022 就是这么时常在失控的边缘，一半握在自己手里，一半被世界抽打着过完了。我乐观地希望一些痛苦能够为我带来成长，但应该还是远远不够的。
+“独立&#34;与&#34;健康” 读研以后一直希望自己能够独立，完全脱离父母的关照，身体健康、财务健康。虽然两个方面都进步缓慢，但每年都能做好一点，自己也就满足了。
+身体健康 今年做得不错的点有：
+注意冷暖：没有过发烧感冒，最后年底疫情放开后，暂时防护也做得不错还在跑毒。 控制体重：体重一年下来掉了 5 斤，主要都在读博之后，也许是走路走得多了点吧。 口腔卫生：自从牙龈炎过后，口腔卫生更加注意了。 今年做得不好的点有：
+睡眠不规律：很多时候因为惰性作息仍然不规律。 缺乏运动：只有过个把月的锻炼经历。 水喝得不够：每天可能只有三杯水，还是太懒。 财务健康 今年做得不错的点有：
+记账习惯：今年是记账的第 2 年，坚持全年记账习惯的第 1 年。 基本独立：没有找家里要过钱，即使不算学费今年财务仍然是增长的。 今年做得不好的点有：
+奶茶：下半年奶茶确实喝得有点多。 消费：仍然有很多不理性消费。 “科研&#34;与&#34;娱乐” 今年的身份由专硕转变成博士生，不希望自己成天除了干活就是&#34;奶头乐&#34;，精神变得枯竭，但同时又想要快点发论文达到毕业要求。下半年的绝大多数日子，晚上回到寝室的时候都很累，一放松就容易熬夜，直接睡觉又不甘心。
+科研进度 因为换了方向，无论是&#34;机器人抓取稳定性评估&#34;还是&#34;非小细胞肺癌亚型分类&#34;，都离投稿很远，没有结果产出。好像没什么做得好的，列几条做得不好的：
+论文语料积累较少：看完就忘，写的时候再去翻，无论是写初稿还是跟老板 Battle 能有扎实的语料库都会硬气很多。 论文产出流程不清：完全不熟悉科研工作变成论文是一个怎样的过程，老板的指导也是东一锤西一锤，结果自己还要被骂目标感不强。 没有领导规划能力：半个领导者的角色让我不太适应，带师弟的时候觉得力不从心。 娱乐总结 这大概是本篇总结最开心的地方了吧，为我今年看过的好作品颁个奖。
+2023 的 Flag 每年的画饼与打脸环节，可是，新年怎么能不立 Flag 呢。
+发表 1 篇论文 读完 24 本书（包括订阅的《读库》与《单读》） 学会 10 杯饮料的做法 更新 36 篇博客 学唱 10 首新歌 户外跑 100 公里 希望 2023 年终总结的时候还能在这里回收这些 Flag。
+...</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2022-12-31 00:00:00 +0000 UTC'>December 31, 2022</span></footer>
+  <a class="entry-link" aria-label="post link to 2022 年度总结" href="http://localhost:1313/posts/2022-12-31-2022%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Hexo 系列教程 3：博客配置
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>网站配置 打开 blog 根目录里的 _config.yml 文件，也称为 站点配置文件。下面只介绍一些必要的选项：
+网站 根据自己的博客需要更改设置。
+参数 描述 title 网站标题 subtitle 网站副标题 description 网站描述 keywords 网站的关键词。支持多个关键词。 author 您的名字 language 网站使用的语言。对于简体中文用户来说，使用不同的主题可能需要设置成不同的值，请参考你的主题的文档自行设置，常见的有 zh-Hans 和 zh-CN。 timezone 网站时区。Hexo 默认使用您电脑的时区。请参考 时区列表 进行设置，如 America/New_York, Japan, 和 UTC 。一般的，对于中国大陆地区可以使用 Asia/Shanghai。 其中，description 主要用于 SEO，告诉搜索引擎一个关于您站点的简单描述，通常建议在其中包含您网站的关键词。author 参数用于主题显示文章的作者。
+写作 默认不需要更改。
+参数 描述 默认值 new_post_name 新文章的文件名称 :title.md default_layout 预设布局 post titlecase 把标题转换为 title case false external_link 在新标签中打开链接 true external_link.enable 在新标签中打开链接 true external_link.field 对整个网站（site）生效或仅对文章（post）生效 site external_link.exclude 需要排除的域名。主域名和子域名如 www 需分别配置 [] filename_case 把文件名称转换为 (1) 小写或 (2) 大写 0 render_drafts 显示草稿 false post_asset_folder 启动 Asset 文件夹 false relative_link 把链接改为与根目录的相对位址 false future 显示未来的文章 true highlight 代码块的设置，请参考 Highlight.js 进行设置 prismjs 代码块的设置，请参考 PrismJS 进行设置 分类 &amp; 标签 默认不需要更改。
+...</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2022-12-26 00:00:00 +0000 UTC'>December 26, 2022</span></footer>
+  <a class="entry-link" aria-label="post link to Hexo 系列教程 3：博客配置" href="http://localhost:1313/posts/2022-12-26-hexo%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B3-%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Hexo 系列教程 2：Github 部署
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>配置 Git 打开 Windows Terminal 或者在菜单里搜索 Git Bash，取消 ssl 认证：
+git config --global http.sslVerify false 设置 user.name 和 user.email 配置信息：
+git config --global user.name &#34;你的 GitHub 用户名&#34; git config --global user.email &#34;你的 GitHub 注册邮箱&#34; 生成 ssh 密钥文件：
+ssh-keygen -t rsa -C &#34;你的 GitHub 注册邮箱&#34; 然后直接三个回车即可，默认不需要设置密码。你应该会看到如下输出：
+Generating public/private rsa key pair. Enter file in which to save the key (C:\Users\用户名/.ssh/id_rsa): Enter passphrase (empty for no passphrase): Enter same passphrase again: Your identification has been saved in C:\Users\用户名/.ssh/id_rsa Your public key has been saved in C:\Users\用户名/.ssh/id_rsa.pub The key fingerprint is: SHA256:66taKe0S8vRMPMJnjCi/GaDgi&#43;oEaPAJy71QEBFX7&#43;Y The key&#39;s randomart image is: &#43;---[RSA 3072]----&#43; | =&#43;... | | o . | |o . . | |&#43;&#43;o. . | |*&#43;o&#43; &#43; oS | |B.&#43; B.X. . | |.=.=.O&#43;E. | |o ooo&#43;o. | |=oo..oo.o. | &#43;----[SHA256]-----&#43; 在 C:\Users\用户名/.ssh/id_rsa.pub 处找到生成的 id_rsa.pub 密钥，复制其中全部内容。
+...</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2022-12-22 00:00:00 +0000 UTC'>December 22, 2022</span></footer>
+  <a class="entry-link" aria-label="post link to Hexo 系列教程 2：Github 部署" href="http://localhost:1313/posts/2022-12-22-hexo%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B2-github%E9%83%A8%E7%BD%B2/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Hexo 系列教程 1：环境搭建
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>什么是 Hexo？ Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。
+安装前提 安装 Hexo 相当简单，只需要先安装下列应用程序即可：
+Git Node.js（Node.js 版本需不低于 10.13，建议使用 Node.js 12.0 及以上版本） 安装 Git Windows：下载并安装 Git. 安装 Node.js Windows：下载并安装 Node.js. 至此已经满足了 Hexo 安装的前提条件。
+安装 Hexo 所有必备的应用程序安装完成后，即可使用 npm 安装 Hexo。
+npm install -g hexo-cli 初始化博客 安装 Hexo 完成后，执行下列命令，Hexo 将会在指定文件夹中新建所需要的文件。
+hexo init &lt;folder&gt; cd &lt;folder&gt; npm install 新建完成后，指定文件夹的目录如下：
+. ├── _config.yml ├── package.json ├── scaffolds ├── source | ├── _drafts | └── _posts └── themes 本地部署 完成初始化后，执行下列命令，即可生成默认的静态页面。
+hexo generate 该命令也可以简写为：
+hexo g 完成生成过后即可执行下列命令，在本地开启服务。
+...</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2022-12-18 00:00:00 +0000 UTC'>December 18, 2022</span></footer>
+  <a class="entry-link" aria-label="post link to Hexo 系列教程 1：环境搭建" href="http://localhost:1313/posts/2022-12-18-hexo%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B1-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"></a>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Rorika</a></span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

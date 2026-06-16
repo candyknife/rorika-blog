@@ -1,20 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Posts on Rorika</title>
-    <link>https://candyknife.github.io/posts/</link>
-    <description>Recent content in Posts on Rorika</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sun, 14 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://candyknife.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>适应性：身为人类的骄傲</title>
-      <link>https://candyknife.github.io/posts/2024-01-14-%E9%80%82%E5%BA%94%E6%80%A7%E8%BA%AB%E4%B8%BA%E4%BA%BA%E7%B1%BB%E7%9A%84%E9%AA%84%E5%82%B2/</link>
-      <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://candyknife.github.io/posts/2024-01-14-%E9%80%82%E5%BA%94%E6%80%A7%E8%BA%AB%E4%B8%BA%E4%BA%BA%E7%B1%BB%E7%9A%84%E9%AA%84%E5%82%B2/</guid>
-      <description>&lt;p&gt;自 2022 年 11 月 30 日 OpenAI 发布对话式 AI 模型 ChatGPT 以来，整个 2023 年，爆发式增长的各种大模型席卷了各式各样的应用场景。起初，对大规模语言模型 (Large Language Model, LLM) 所展现出的惊人能力，人们好奇、人们惊叹、人们恐慌，没有人知道它凭借着&amp;quot;知识涌现&amp;quot;可以到达什么样的地方。但随着大量的实际应用以及对其能力边界的探索，LLM 的局限性以及存在的诸多令人摸不着头脑的问题也渐渐展露出来，其中&amp;quot;ChatGPT 变笨&amp;quot;这一现象一直让我非常感兴趣。今天就聊聊这个话题。&lt;/p&gt;
-&lt;h2 id=&#34;chatgpt-变笨了吗&#34;&gt;ChatGPT 变笨了吗？&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on Rorika</title><link>https://candyknife.github.io/posts/</link><description>Recent content in Posts on Rorika</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 14 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://candyknife.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>适应性：身为人类的骄傲</title><link>https://candyknife.github.io/posts/2024-01-14-%E9%80%82%E5%BA%94%E6%80%A7%E8%BA%AB%E4%B8%BA%E4%BA%BA%E7%B1%BB%E7%9A%84%E9%AA%84%E5%82%B2/</link><pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate><guid>https://candyknife.github.io/posts/2024-01-14-%E9%80%82%E5%BA%94%E6%80%A7%E8%BA%AB%E4%B8%BA%E4%BA%BA%E7%B1%BB%E7%9A%84%E9%AA%84%E5%82%B2/</guid><description>&lt;p&gt;自 2022 年 11 月 30 日 OpenAI 发布对话式 AI 模型 ChatGPT 以来，整个 2023 年，爆发式增长的各种大模型席卷了各式各样的应用场景。起初，对大规模语言模型 (Large Language Model, LLM) 所展现出的惊人能力，人们好奇、人们惊叹、人们恐慌，没有人知道它凭借着&amp;quot;知识涌现&amp;quot;可以到达什么样的地方。但随着大量的实际应用以及对其能力边界的探索，LLM 的局限性以及存在的诸多令人摸不着头脑的问题也渐渐展露出来，其中&amp;quot;ChatGPT 变笨&amp;quot;这一现象一直让我非常感兴趣。今天就聊聊这个话题。&lt;/p&gt;
+&lt;h2 id="chatgpt-变笨了吗"&gt;ChatGPT 变笨了吗？&lt;/h2&gt;
 &lt;p&gt;国内看到这样的报道是早在 2023 年 6 月初一篇来自量子位的文章：&lt;/p&gt;
 &lt;p&gt;对于 ChatGPT 变笨，先是少数用户提出质疑，随后大量网友表示自己也注意到了，还贴出不少证据。有人反馈，把 GPT-4 的 3 小时 25 条对话额度一口气用完了，都没解决自己的代码问题。无奈切换到 GPT-3.5，反倒解决了。&lt;/p&gt;
 &lt;p&gt;总结下大家的反馈，最主要的几种表现有：&lt;/p&gt;
@@ -27,14 +12,7 @@
 &lt;p&gt;对此 OpenAI 于 2023 年 7 月 14 日做出了澄清：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;No, we haven&amp;rsquo;t made GPT-4 dumber. Quite the opposite: we make each new version smarter than the previous one.&lt;/em&gt;
-我们没有把 GPT-4 弄笨。相反地，我们的每个新版本都让 GPT-4 比以前更聪明了。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>好好记录，做自己的史官</title>
-      <link>https://candyknife.github.io/posts/2024-01-07-%E5%A5%BD%E5%A5%BD%E8%AE%B0%E5%BD%95%E5%81%9A%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8F%B2%E5%AE%98/</link>
-      <pubDate>Sun, 07 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://candyknife.github.io/posts/2024-01-07-%E5%A5%BD%E5%A5%BD%E8%AE%B0%E5%BD%95%E5%81%9A%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8F%B2%E5%AE%98/</guid>
-      <description>&lt;blockquote&gt;
+我们没有把 GPT-4 弄笨。相反地，我们的每个新版本都让 GPT-4 比以前更聪明了。&lt;/p&gt;</description></item><item><title>好好记录，做自己的史官</title><link>https://candyknife.github.io/posts/2024-01-07-%E5%A5%BD%E5%A5%BD%E8%AE%B0%E5%BD%95%E5%81%9A%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8F%B2%E5%AE%98/</link><pubDate>Sun, 07 Jan 2024 00:00:00 +0000</pubDate><guid>https://candyknife.github.io/posts/2024-01-07-%E5%A5%BD%E5%A5%BD%E8%AE%B0%E5%BD%95%E5%81%9A%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8F%B2%E5%AE%98/</guid><description>&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Veni, Vidi.&lt;/strong&gt;
 我来，我见证。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -50,104 +28,17 @@
 &lt;p&gt;所以，新的一年里虽然列了很多想要完成的事情，但还是希望自己做自己的史官，从好好记录开始，一桩一桩地去做吧。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;更新于 2024-01-14&lt;/p&gt;
-&lt;/blockquote&gt;</description>
-    </item>
-    <item>
-      <title>深度学习服务器环境配置指南 1：驱动与库</title>
-      <link>https://candyknife.github.io/posts/2023-01-07-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%971-%E9%A9%B1%E5%8A%A8%E4%B8%8E%E5%BA%93/</link>
-      <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://candyknife.github.io/posts/2023-01-07-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%971-%E9%A9%B1%E5%8A%A8%E4%B8%8E%E5%BA%93/</guid>
-      <description>&lt;h2 id=&#34;一安装显卡驱动&#34;&gt;一、安装显卡驱动&lt;/h2&gt;
-&lt;p&gt;获取显卡与驱动信息：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ubuntu-drivers devices
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;选择推荐版本进行安装：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt install nvidia-driver-515
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;完成后验证安装结果：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;nvidia-smi
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;此时留意所展示的 CUDA Version，如果高于 &lt;a href=&#34;https://pytorch.org/get-started/locally/&#34;&gt;PyTorch 指导&lt;/a&gt; 页面所展示的最高 CUDA 版本，则以 PyTorch 适用的 CUDA 版本为准。&lt;/p&gt;
-&lt;h2 id=&#34;二安装-cuda&#34;&gt;二、安装 CUDA&lt;/h2&gt;
-&lt;p&gt;在 &lt;a href=&#34;https://developer.nvidia.com/cuda-toolkit-archive&#34;&gt;CUDA Toolkit Archive&lt;/a&gt; 下载所需 CUDA 版本的安装文件，一般来说最新的显卡驱动所支持的 CUDA 版本都高于 PyTorch 支持的最高版本，以 PyTorch 指导页面为准即可。当前 PyTorch 最高支持 CUDA 11.7。&lt;/p&gt;
-&lt;p&gt;选择特定版本后，根据实际系统架构与系统版本进行筛选，最终安装方式按 NVIDIA 文档所述，推荐使用 deb(local) 分支。此时会给出安装指导：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-ubuntu2204.pin
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo mv cuda-ubuntu2204.pin /etc/apt/preferences.d/cuda-repository-pin-600
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;wget https://developer.download.nvidia.com/compute/cuda/11.7.1/local_installers/cuda-repo-ubuntu2204-11-7-local_11.7.1-515.65.01-1_amd64.deb
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo dpkg -i cuda-repo-ubuntu2204-11-7-local_11.7.1-515.65.01-1_amd64.deb
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo cp /var/cuda-repo-ubuntu2204-11-7-local/cuda-*-keyring.gpg /usr/share/keyrings/
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt-get update
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt-get -y install cuda
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;完成后需要配置环境变量：&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>深度学习服务器环境配置指南 2：训练环境</title>
-      <link>https://candyknife.github.io/posts/2023-01-07-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%972-%E8%AE%AD%E7%BB%83%E7%8E%AF%E5%A2%83/</link>
-      <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://candyknife.github.io/posts/2023-01-07-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%972-%E8%AE%AD%E7%BB%83%E7%8E%AF%E5%A2%83/</guid>
-      <description>&lt;h2 id=&#34;一miniconda-安装&#34;&gt;一、Miniconda 安装&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;下载安装包
-&lt;a href=&#34;https://docs.conda.io/en/latest/miniconda.html&#34;&gt;Miniconda&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;验证哈希值&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sha256sum filename
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;安装&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;bash Miniconda3-latest-Linux-x86_64.sh
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;重启终端并测试&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;conda list
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;更新&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;conda update conda
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;二项目环境配置&#34;&gt;二、项目环境配置&lt;/h2&gt;
-&lt;p&gt;根据需要为项目创建对应环境。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;conda create -n project_name
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;激活项目环境。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;conda activate project_name
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;三pytorch-安装&#34;&gt;三、Pytorch 安装&lt;/h2&gt;
-&lt;p&gt;查看当前 Nvidia 驱动版本。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;nvidia-smi
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;查找对应的 cuda 版本：&lt;a href=&#34;https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html#title-resolved-issues&#34;&gt;CUDA documentation&lt;/a&gt;。
-根据 cuda 版本执行对应的安装指令：&lt;a href=&#34;https://pytorch.org/get-started/locally/&#34;&gt;PyTorch&lt;/a&gt;。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;conda install pytorch torchvision torchaudio pytorch-cuda&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;11.7 -c pytorch -c nvidia
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;四jupyter-notebook-安装&#34;&gt;四、Jupyter Notebook 安装&lt;/h2&gt;
-&lt;p&gt;安装：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;conda install notebook
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;生成配置文件并修改：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;jupyter notebook --generate-config
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;vi ~/.jupyter/jupyter_notebook_config.py
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;单独打开一个终端窗口用以生成密钥：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;python
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; notebook.auth &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; passwd
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;passwd()
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Enter password:
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Verify password:
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;argon2:$argon2id$...&amp;#39;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;在 Jupyter Notebook 的配置文件中改动以下内容：&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>2022 年度总结</title>
-      <link>https://candyknife.github.io/posts/2022-12-31-2022%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</link>
-      <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://candyknife.github.io/posts/2022-12-31-2022%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</guid>
-      <description>&lt;blockquote&gt;
+&lt;/blockquote&gt;</description></item><item><title>2022 年度总结</title><link>https://candyknife.github.io/posts/2022-12-31-2022%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</link><pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate><guid>https://candyknife.github.io/posts/2022-12-31-2022%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</guid><description>&lt;blockquote&gt;
 &lt;p&gt;我要去赶火车，走夜路，
 先活过那条哀鸣的狗，
 再回来认我的命。&lt;/p&gt;
 &lt;p&gt;—— 李修文《山河袈裟》&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&#34;写在前面&#34;&gt;写在前面&lt;/h2&gt;
+&lt;h2 id="写在前面"&gt;写在前面&lt;/h2&gt;
 &lt;p&gt;反复犹豫，终于还是决意要在 2022 的最后一天在这里对自己说点什么。原谅我开头放上这么几句看上去考虑到我的年纪显得无病呻吟的句子，我自知所尝过的酸苦不及其他人的万分之一，自知现在还是没有经济压力地在大学的象牙塔里，自知所谓&amp;quot;成年&amp;quot;的责任也好担当也好都还未落到自己肩上，但是这一年就是让人压抑和彷徨的。我的 2022 就是这么时常在失控的边缘，一半握在自己手里，一半被世界抽打着过完了。我乐观地希望一些痛苦能够为我带来成长，但应该还是远远不够的。&lt;/p&gt;
-&lt;h2 id=&#34;独立与健康&#34;&gt;&amp;ldquo;独立&amp;quot;与&amp;quot;健康&amp;rdquo;&lt;/h2&gt;
+&lt;h2 id="独立与健康"&gt;&amp;ldquo;独立&amp;quot;与&amp;quot;健康&amp;rdquo;&lt;/h2&gt;
 &lt;p&gt;读研以后一直希望自己能够独立，完全脱离父母的关照，身体健康、财务健康。虽然两个方面都进步缓慢，但每年都能做好一点，自己也就满足了。&lt;/p&gt;
-&lt;h3 id=&#34;身体健康&#34;&gt;身体健康&lt;/h3&gt;
+&lt;h3 id="身体健康"&gt;身体健康&lt;/h3&gt;
 &lt;p&gt;今年做得不错的点有：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;注意冷暖：没有过发烧感冒，最后年底疫情放开后，暂时防护也做得不错还在跑毒。&lt;/li&gt;
@@ -160,7 +51,7 @@
 &lt;li&gt;缺乏运动：只有过个把月的锻炼经历。&lt;/li&gt;
 &lt;li&gt;水喝得不够：每天可能只有三杯水，还是太懒。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;财务健康&#34;&gt;财务健康&lt;/h3&gt;
+&lt;h3 id="财务健康"&gt;财务健康&lt;/h3&gt;
 &lt;p&gt;今年做得不错的点有：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;记账习惯：今年是记账的第 2 年，坚持全年记账习惯的第 1 年。&lt;/li&gt;
@@ -171,27 +62,27 @@
 &lt;li&gt;奶茶：下半年奶茶确实喝得有点多。&lt;/li&gt;
 &lt;li&gt;消费：仍然有很多不理性消费。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;科研与娱乐&#34;&gt;&amp;ldquo;科研&amp;quot;与&amp;quot;娱乐&amp;rdquo;&lt;/h2&gt;
+&lt;h2 id="科研与娱乐"&gt;&amp;ldquo;科研&amp;quot;与&amp;quot;娱乐&amp;rdquo;&lt;/h2&gt;
 &lt;p&gt;今年的身份由专硕转变成博士生，不希望自己成天除了干活就是&amp;quot;奶头乐&amp;quot;，精神变得枯竭，但同时又想要快点发论文达到毕业要求。下半年的绝大多数日子，晚上回到寝室的时候都很累，一放松就容易熬夜，直接睡觉又不甘心。&lt;/p&gt;
-&lt;h3 id=&#34;科研进度&#34;&gt;科研进度&lt;/h3&gt;
+&lt;h3 id="科研进度"&gt;科研进度&lt;/h3&gt;
 &lt;p&gt;因为换了方向，无论是&amp;quot;机器人抓取稳定性评估&amp;quot;还是&amp;quot;非小细胞肺癌亚型分类&amp;quot;，都离投稿很远，没有结果产出。好像没什么做得好的，列几条做得不好的：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;论文语料积累较少：看完就忘，写的时候再去翻，无论是写初稿还是跟老板 Battle 能有扎实的语料库都会硬气很多。&lt;/li&gt;
 &lt;li&gt;论文产出流程不清：完全不熟悉科研工作变成论文是一个怎样的过程，老板的指导也是东一锤西一锤，结果自己还要被骂目标感不强。&lt;/li&gt;
 &lt;li&gt;没有领导规划能力：半个领导者的角色让我不太适应，带师弟的时候觉得力不从心。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;娱乐总结&#34;&gt;娱乐总结&lt;/h3&gt;
+&lt;h3 id="娱乐总结"&gt;娱乐总结&lt;/h3&gt;
 &lt;p&gt;这大概是本篇总结最开心的地方了吧，为我今年看过的好作品颁个奖。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;2022最佳国语小说&#34; loading=&#34;lazy&#34; src=&#34;https://s2.loli.net/2023/06/06/y3UaKv1qoLpzmgj.jpg&#34;&gt;
-&lt;img alt=&#34;2022最佳推理小说&#34; loading=&#34;lazy&#34; src=&#34;https://s2.loli.net/2023/06/06/7arfGpAeOQdlXDB.jpg&#34;&gt;
-&lt;img alt=&#34;2022最佳科幻小说&#34; loading=&#34;lazy&#34; src=&#34;https://s2.loli.net/2023/06/06/UPWumYps7foQlez.jpg&#34;&gt;
-&lt;img alt=&#34;2022最佳动画&#34; loading=&#34;lazy&#34; src=&#34;https://s2.loli.net/2023/06/06/3ePpxq1IG64SyMR.jpg&#34;&gt;
-&lt;img alt=&#34;2022最佳动画&#34; loading=&#34;lazy&#34; src=&#34;https://s2.loli.net/2023/06/06/6ceE2xXy3fawJoQ.jpg&#34;&gt;
-&lt;img alt=&#34;2022最佳动画&#34; loading=&#34;lazy&#34; src=&#34;https://s2.loli.net/2023/06/06/AMChJPr6e1w9maK.jpg&#34;&gt;
-&lt;img alt=&#34;2022最佳电影&#34; loading=&#34;lazy&#34; src=&#34;https://s2.loli.net/2023/06/06/ikTD16wAfgsdZuB.jpg&#34;&gt;
-&lt;img alt=&#34;2022最佳流媒体剧集&#34; loading=&#34;lazy&#34; src=&#34;https://s2.loli.net/2023/06/06/iAwhatU1jXPBSO6.jpg&#34;&gt;
-&lt;img alt=&#34;2022最佳游戏&#34; loading=&#34;lazy&#34; src=&#34;https://s2.loli.net/2023/06/06/NBGCVXnSQctobMq.jpg&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;2023-的-flag&#34;&gt;2023 的 Flag&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="2022最佳国语小说" loading="lazy" src="https://s2.loli.net/2023/06/06/y3UaKv1qoLpzmgj.jpg"&gt;
+&lt;img alt="2022最佳推理小说" loading="lazy" src="https://s2.loli.net/2023/06/06/7arfGpAeOQdlXDB.jpg"&gt;
+&lt;img alt="2022最佳科幻小说" loading="lazy" src="https://s2.loli.net/2023/06/06/UPWumYps7foQlez.jpg"&gt;
+&lt;img alt="2022最佳动画" loading="lazy" src="https://s2.loli.net/2023/06/06/3ePpxq1IG64SyMR.jpg"&gt;
+&lt;img alt="2022最佳动画" loading="lazy" src="https://s2.loli.net/2023/06/06/6ceE2xXy3fawJoQ.jpg"&gt;
+&lt;img alt="2022最佳动画" loading="lazy" src="https://s2.loli.net/2023/06/06/AMChJPr6e1w9maK.jpg"&gt;
+&lt;img alt="2022最佳电影" loading="lazy" src="https://s2.loli.net/2023/06/06/ikTD16wAfgsdZuB.jpg"&gt;
+&lt;img alt="2022最佳流媒体剧集" loading="lazy" src="https://s2.loli.net/2023/06/06/iAwhatU1jXPBSO6.jpg"&gt;
+&lt;img alt="2022最佳游戏" loading="lazy" src="https://s2.loli.net/2023/06/06/NBGCVXnSQctobMq.jpg"&gt;&lt;/p&gt;
+&lt;h2 id="2023-的-flag"&gt;2023 的 Flag&lt;/h2&gt;
 &lt;p&gt;每年的画饼与打脸环节，可是，新年怎么能不立 Flag 呢。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;发表 1 篇论文&lt;/li&gt;
@@ -201,223 +92,4 @@
 &lt;li&gt;学唱 10 首新歌&lt;/li&gt;
 &lt;li&gt;户外跑 100 公里&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;希望 2023 年终总结的时候还能在这里回收这些 Flag。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Hexo 系列教程 3：博客配置</title>
-      <link>https://candyknife.github.io/posts/2022-12-26-hexo%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B3-%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/</link>
-      <pubDate>Mon, 26 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://candyknife.github.io/posts/2022-12-26-hexo%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B3-%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/</guid>
-      <description>&lt;h2 id=&#34;网站配置&#34;&gt;网站配置&lt;/h2&gt;
-&lt;p&gt;打开 blog 根目录里的 &lt;code&gt;_config.yml&lt;/code&gt; 文件，也称为 &lt;strong&gt;站点配置文件&lt;/strong&gt;。下面只介绍一些必要的选项：&lt;/p&gt;
-&lt;h3 id=&#34;网站&#34;&gt;网站&lt;/h3&gt;
-&lt;p&gt;根据自己的博客需要更改设置。&lt;/p&gt;
-&lt;table&gt;
-	&lt;thead&gt;
-			&lt;tr&gt;
-					&lt;th&gt;参数&lt;/th&gt;
-					&lt;th&gt;描述&lt;/th&gt;
-			&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;code&gt;title&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;网站标题&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;code&gt;subtitle&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;网站副标题&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;code&gt;description&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;网站描述&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;code&gt;keywords&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;网站的关键词。支持多个关键词。&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;code&gt;author&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;您的名字&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;code&gt;language&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;网站使用的语言。对于简体中文用户来说，使用不同的主题可能需要设置成不同的值，请参考你的主题的文档自行设置，常见的有 &lt;code&gt;zh-Hans&lt;/code&gt; 和 &lt;code&gt;zh-CN&lt;/code&gt;。&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;code&gt;timezone&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;网站时区。Hexo 默认使用您电脑的时区。请参考 &lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_tz_database_time_zones&#34;&gt;时区列表&lt;/a&gt; 进行设置，如 &lt;code&gt;America/New_York&lt;/code&gt;, &lt;code&gt;Japan&lt;/code&gt;, 和 &lt;code&gt;UTC&lt;/code&gt; 。一般的，对于中国大陆地区可以使用 &lt;code&gt;Asia/Shanghai&lt;/code&gt;。&lt;/td&gt;
-			&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;其中，&lt;code&gt;description&lt;/code&gt; 主要用于 SEO，告诉搜索引擎一个关于您站点的简单描述，通常建议在其中包含您网站的关键词。&lt;code&gt;author&lt;/code&gt; 参数用于主题显示文章的作者。&lt;/p&gt;
-&lt;h3 id=&#34;写作&#34;&gt;写作&lt;/h3&gt;
-&lt;p&gt;默认不需要更改。&lt;/p&gt;
-&lt;table&gt;
-	&lt;thead&gt;
-			&lt;tr&gt;
-					&lt;th&gt;参数&lt;/th&gt;
-					&lt;th&gt;描述&lt;/th&gt;
-					&lt;th&gt;默认值&lt;/th&gt;
-			&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;code&gt;new_post_name&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;新文章的文件名称&lt;/td&gt;
-					&lt;td&gt;:title.md&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;code&gt;default_layout&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;预设布局&lt;/td&gt;
-					&lt;td&gt;post&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;code&gt;titlecase&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;把标题转换为 title case&lt;/td&gt;
-					&lt;td&gt;false&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;code&gt;external_link&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;在新标签中打开链接&lt;/td&gt;
-					&lt;td&gt;true&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;code&gt;external_link.enable&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;在新标签中打开链接&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;true&lt;/code&gt;&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;code&gt;external_link.field&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;对整个网站（&lt;code&gt;site&lt;/code&gt;）生效或仅对文章（&lt;code&gt;post&lt;/code&gt;）生效&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;site&lt;/code&gt;&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;code&gt;external_link.exclude&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;需要排除的域名。主域名和子域名如 &lt;code&gt;www&lt;/code&gt; 需分别配置&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;[]&lt;/code&gt;&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;code&gt;filename_case&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;把文件名称转换为 (1) 小写或 (2) 大写&lt;/td&gt;
-					&lt;td&gt;0&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;code&gt;render_drafts&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;显示草稿&lt;/td&gt;
-					&lt;td&gt;false&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;code&gt;post_asset_folder&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;启动 &lt;a href=&#34;https://hexo.io/zh-cn/docs/asset-folders&#34;&gt;Asset 文件夹&lt;/a&gt;&lt;/td&gt;
-					&lt;td&gt;false&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;code&gt;relative_link&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;把链接改为与根目录的相对位址&lt;/td&gt;
-					&lt;td&gt;false&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;code&gt;future&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;显示未来的文章&lt;/td&gt;
-					&lt;td&gt;true&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;code&gt;highlight&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;代码块的设置，请参考 &lt;a href=&#34;https://hexo.io/zh-cn/docs/syntax-highlight#Highlight-js&#34;&gt;Highlight.js&lt;/a&gt; 进行设置&lt;/td&gt;
-					&lt;td&gt;&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;code&gt;prismjs&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;代码块的设置，请参考 &lt;a href=&#34;https://hexo.io/zh-cn/docs/syntax-highlight#PrismJS&#34;&gt;PrismJS&lt;/a&gt; 进行设置&lt;/td&gt;
-					&lt;td&gt;&lt;/td&gt;
-			&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;分类--标签&#34;&gt;分类 &amp;amp; 标签&lt;/h3&gt;
-&lt;p&gt;默认不需要更改。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Hexo 系列教程 2：Github 部署</title>
-      <link>https://candyknife.github.io/posts/2022-12-22-hexo%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B2-github%E9%83%A8%E7%BD%B2/</link>
-      <pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://candyknife.github.io/posts/2022-12-22-hexo%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B2-github%E9%83%A8%E7%BD%B2/</guid>
-      <description>&lt;h2 id=&#34;配置-git&#34;&gt;配置 Git&lt;/h2&gt;
-&lt;p&gt;打开 Windows Terminal 或者在菜单里搜索 Git Bash，取消 ssl 认证：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git config --global http.sslVerify false
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;设置 user.name 和 user.email 配置信息：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git config --global user.name &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;你的 GitHub 用户名&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git config --global user.email &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;你的 GitHub 注册邮箱&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;生成 ssh 密钥文件：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ssh-keygen -t rsa -C &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;你的 GitHub 注册邮箱&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后直接三个回车即可，默认不需要设置密码。你应该会看到如下输出：&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Generating public/private rsa key pair.
-Enter file in which to save the key (C:\Users\用户名/.ssh/id_rsa):
-Enter passphrase (empty for no passphrase):
-Enter same passphrase again:
-Your identification has been saved in C:\Users\用户名/.ssh/id_rsa
-Your public key has been saved in C:\Users\用户名/.ssh/id_rsa.pub
-The key fingerprint is:
-SHA256:66taKe0S8vRMPMJnjCi/GaDgi+oEaPAJy71QEBFX7+Y
-The key&amp;#39;s randomart image is:
-+---[RSA 3072]----+
-| =+...           |
-|  o   .          |
-|o  .   .         |
-|++o.  .          |
-|*+o+ + oS        |
-|B.+ B.X. .       |
-|.=.=.O+E.        |
-|o ooo+o.         |
-|=oo..oo.o.       |
-+----[SHA256]-----+
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;在 &lt;code&gt;C:\Users\用户名/.ssh/id_rsa.pub&lt;/code&gt; 处找到生成的 &lt;code&gt;id_rsa.pub&lt;/code&gt; 密钥，复制其中全部内容。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Hexo 系列教程 1：环境搭建</title>
-      <link>https://candyknife.github.io/posts/2022-12-18-hexo%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B1-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</link>
-      <pubDate>Sun, 18 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://candyknife.github.io/posts/2022-12-18-hexo%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B1-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</guid>
-      <description>&lt;h2 id=&#34;什么是-hexo&#34;&gt;什么是 Hexo？&lt;/h2&gt;
-&lt;p&gt;Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt;（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。&lt;/p&gt;
-&lt;h2 id=&#34;安装前提&#34;&gt;安装前提&lt;/h2&gt;
-&lt;p&gt;安装 Hexo 相当简单，只需要先安装下列应用程序即可：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://git-scm.com/&#34;&gt;Git&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://nodejs.org/&#34;&gt;Node.js&lt;/a&gt;（Node.js 版本需不低于 10.13，建议使用 Node.js 12.0 及以上版本）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;安装-git&#34;&gt;安装 Git&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Windows：下载并安装 &lt;a href=&#34;https://git-scm.com/download/win&#34;&gt;Git&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;安装-nodejs&#34;&gt;安装 Node.js&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Windows：下载并安装 &lt;a href=&#34;https://nodejs.org/en/download/&#34;&gt;Node.js&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;至此已经满足了 Hexo 安装的前提条件。&lt;/p&gt;
-&lt;h2 id=&#34;安装-hexo&#34;&gt;安装 Hexo&lt;/h2&gt;
-&lt;p&gt;所有必备的应用程序安装完成后，即可使用 npm 安装 Hexo。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;npm install -g hexo-cli
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;初始化博客&#34;&gt;初始化博客&lt;/h2&gt;
-&lt;p&gt;安装 Hexo 完成后，执行下列命令，Hexo 将会在指定文件夹中新建所需要的文件。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hexo init &amp;lt;folder&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd &amp;lt;folder&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;npm install
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;新建完成后，指定文件夹的目录如下：&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;.
-├── _config.yml
-├── package.json
-├── scaffolds
-├── source
-|   ├── _drafts
-|   └── _posts
-└── themes
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;本地部署&#34;&gt;本地部署&lt;/h2&gt;
-&lt;p&gt;完成初始化后，执行下列命令，即可生成默认的静态页面。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hexo generate
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;该命令也可以简写为：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hexo g
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;完成生成过后即可执行下列命令，在本地开启服务。&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+&lt;p&gt;希望 2023 年终总结的时候还能在这里回收这些 Flag。&lt;/p&gt;</description></item></channel></rss>
